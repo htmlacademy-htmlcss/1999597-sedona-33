@@ -30,7 +30,6 @@
 }
 .white {
   color: #FFFFFF;
-  background-color: #83B3D3;
   text-align: center;
 }
 body {
@@ -57,18 +56,23 @@ body {
   line-height: 26px;
   text-transform: uppercase;
   color: #FFFFFF;
-  background-color: #83B3D3;
   border-radius: 10px;
   border: none;
 }
  .subscription {
-   background-image: url(styles/background.jpg);
+   background-image: url(background.jpg);
+   background-size: 100% auto;
+   background-repeat: no-repeat;
   }
 .main-index {
-   background-image: url(styles/index-background.jpg);
+   background-image: url(index-background.jpg);
+   background-size: 100% auto;
+   background-repeat: no-repeat;
 }
-.inner-header-title {
-  background-image: url(style/catalog-background.jpg);
+.cart {
+  background-image: url(catalog-background\ 1.jpg);
+  background-size: 100% auto;
+  
 }
 .footer-contacts-address-phone {
   color: black;
@@ -77,9 +81,8 @@ body {
   font-size: 40px;
   line-height: 40px;
 }
-.test {
-  background-color:#83B3D3; 
-}
+
+
 .rgba {
   background-color: rgba(131, 179, 211, 0.12);
 }
@@ -94,10 +97,8 @@ body {
   line-height: 26px;
   text-align: center;
 }
-.cart {
-  background-image: url("styles/catalog-background 1.jpg");
-  background-color:#83B3D3 ;
-}
+
+
 .control {
   line-height: 23px;
 }
