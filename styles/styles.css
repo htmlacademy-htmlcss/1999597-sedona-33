@@ -26,6 +26,8 @@
   line-height: 28px;
 }
 .cause-list {
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
 }
 .cause-item-tiny {
@@ -330,6 +332,7 @@ display:flex;
 }
 
 .pros {
+  width: 33%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -338,4 +341,10 @@ display:flex;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.cause-container {
+  width: 33%;
+}
+.color-blue {
+  background-color:rgba(131, 179, 211, 0.2);
 }
