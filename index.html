@@ -14,19 +14,20 @@
             <a class="navigation-logo" href="#">
                 <img class="page-header-logo" alt="Логотип отели Седона." src="images/logo.svg">
             </a>
-
+            <div class="navigation-list-container">
             <ul class="navigation-list">
                 <li class="navigation-item">
                     <a class="navigation-link" href="#">Главная</a>
                 </li>
                 <li class="navigation-item">
-                    <a class="navigation-link" href="catalog.html">О Седоне</a>
+                    <a class="navigation-link" href="#">О Седоне</a>
                 </li>
                 <li class="navigation-item">
-                    <a class="navigation-link" href="faq.html">Гостиницы</a>
+                    <a class="navigation-link" href="catalog.html">Гостиницы</a>
                 </li>
             </ul>
-            <ul class="navigation-list">
+            </div>
+            <ul class="navigation-list navigation-user">
                 <li class="navigation-item">
                     <img src="images/search.svg">
                     <a class="navigation-link icon" href="#"><span class="visually-hidden">поиск</span></a>
@@ -41,31 +42,38 @@
             </ul>
         </nav>
     </header>
-    <main class="main-index">
-        <h1 class="visually-hidden">
+    <div class="page-container">
+    <main class="main-index main-container">
+       <section> <h1 class="visually-hidden">
             Отель "Седона"
         </h1>
         <img class="logo" src="images/welcome.svg" width="458px" height="352px" alt="логотип отеля Седона">
+       </section>
         <section class="causes">
-            <h2>
+           <div class="container-start"> <h2>
                 Седона — небольшой городок в Аризоне,
                 заслуживающий большего!
             </h2>
             <span>
                 Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!
             </span>
+           </div>
             <ol class="cause-list">
-                <li class="couse-item white">
+                <li class="couse-item couse-item-full">
+                    <div class="cause-container">
                     <h3 class="cause-title">
                         Настоящий
                         городок
                     </h3>
                    
                     <p class="cause-description">Седона — не аттракцион для туристов, там течёт
-                        своя жизнь</p> 
-                        <img src="images/photo-1.jpg" width="800" height="384">
+                        своя жизнь</p>
+                    </div>
+                        <img src="images/photo-1.jpg" width="700" height="384">
+                   
                 </li>
                 <li class="pros rgba">
+                    <div class="pros-container">
                     <img src="images/Group.svg">
                     <p>
                         Жильё
@@ -75,8 +83,10 @@
                         в настоящем мотеле,
                         всё как в кино!
                     </span>
+                    </div>
                 </li>
                 <li class="pros">
+                    <div class="pros-container">
                     <img src="images/icon-2.svg">
                     <p>
                         Еда
@@ -85,8 +95,10 @@
                         Всегда заказывайте
                         топовый фирменный бургер, вы не разочаруетесь!
                     </span>
+                    </div>
                 </li>
                 <li class="pros rgba">
+                    <div class="pros-container">
                     <img src="images/icon-3.svg">
                     <p>
                         Сувениры
@@ -95,36 +107,45 @@
                         Не только китайского,
                         но и настоящего местного производства!
                     </span>
+                </div>
                 </li>
-                <li class="couse-item white">
-                    <img src="images/photo-2.jpg" width="800" height="384">>
+                <li class="couse-item  couse-item-full">
+                    <img src="images/photo-2.jpg" width="700" height="384">
+                    <div class="cause-container">
                     <h3 class="cause-title">
                         Там есть
                         мост дьявола
                     </h3>
                     <p class="cause-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+                     </div>
                 </li>
-                <li class="couse-item rgba">
+                <li class="couse-item pros">
+                    <div class="pros-container">
                     <h3 class="cause-title">
                         Небольшая
                         площадь
                     </h3>
                     <p class="cause-description">Все достопримечательности
                         находятся очень близко</p>
+                    </div>
                 </li>
-                <li class="couse-item rgba">
+                <li class="couse-item pros color-blue">
+                    <div class="pros-container">
                     <h3 class="cause-title">
                         Красивая
                         дорога
                     </h3>
                     <p class="cause-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+                </div>
                 </li>
-                <li class="couse-item rgba">
+                <li class="couse-item pros">
+                    <div class="pros-container">
                     <h3 class="cause-title">
                         Мало
                         туристов
                     </h3>
                     <p class="cause-description">Большинство едет в Гранд Каньон и толпится там</p>
+                </div>
                 </li>
             </ol>
         </section>
@@ -158,6 +179,7 @@
             </form>
         </section>
     </main>
+    </div>
     <footer class="page-footer">
         <section>
             <h2 class="visualy-hidden">социальные сети</h2>
